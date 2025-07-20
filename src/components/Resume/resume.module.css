@@ -16,10 +16,14 @@
 }
 .content {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row-reverse;
+    max-width: 1800px;
+    text-align: left;
+    align-items: center; /* <-- This will vertically center the image and the list */
+    justify-content: flex-start;
+    margin: 20px 0;
     width: 100%;
+    box-sizing: border-box;
 }
 .title {
     font-size: 2.5rem;
