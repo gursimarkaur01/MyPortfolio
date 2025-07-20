@@ -1,0 +1,144 @@
+@import "../../vars.css";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px 20px 20px;
+    margin: 30px 70px;
+    width: auto;
+    max-width: calc(100% - 140px);
+    border-radius: 19px;
+    background: #000 linear-gradient(135deg, rgb(9, 26, 125), rgba(11, 40, 51, 0.575),rgba(23, 35, 142, 0.635), rgba(5, 39, 52, 0.575));
+    color:rgb(125, 233, 255);
+}
+.content {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1800px;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 20px;
+}
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+/*.content p {
+    margin: 10px 10px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 20px;
+}
+    */
+.aboutImage {
+    width: 289px;
+    height: 300px;
+    border-radius: 46%;
+    background: #58b6dc77;
+    margin: 20px 120px 30px 30px;
+    position:relative;
+}
+.aboutItems {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: flex-start;
+    gap: 18px;
+    margin: 10px 20px;
+    flex-wrap: wrap;
+}
+.aboutItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 10px 20px;
+    background-image:linear-gradient(160deg, rgba(1, 26, 39, 0.998) , rgba(220, 231, 248, 0.253), rgba(3, 67, 90, 0.875));
+    
+    background-size: 0 100% ;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+.aboutItem:hover {
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.aboutText{
+    font-size: 20px;
+    color: rgb(126, 226, 246);
+    text-align:justify;
+    line-height: 1.6;
+    margin-right: 70px;  
+    max-width: 77%;
+}
+@media screen and (max-width: 884px) {
+    
+    .container{
+        width: 88%;
+        padding: 20px 10px 30px 10px;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .content {
+        display: flex;
+        align-items: center;
+        align-self: center;
+        margin: 0px 0px 10px 20px;
+        justify-content: center;
+    }
+    .aboutItems {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap:20px;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 0px auto;
+    }
+    .aboutItem {
+        width: 100%;
+        text-align: left;
+        padding: 10px 20px;
+        margin: 0px 0px 10px 0px;
+        background-size: 100% 100%;
+        
+        background-size: 0 100% ;
+        background-repeat: no-repeat;
+        transition: 0.4s;
+    }
+    .aboutItem:hover {
+        background-size: 100% 100%;
+    }
+    
+    .aboutText{
+        align-content: center;
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+    }
+    .aboutImage {
+        margin: 40px 20px 20px 10px;
+        width: 260px;
+        height: 250px;
+        align-self: center;
+        justify-content: center;
+        position: relative;
+    }
+}
+@media (max-width: 830px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
