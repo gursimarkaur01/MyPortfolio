@@ -5,15 +5,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 48px 20px 40px 20px;
+    padding: 32px 4vw 16px 4vw;
     width: 100%;
     border-radius: 19px;
     background: transparent;
     color: rgb(125, 233, 255);
+    box-sizing: border-box;
 }
 
 .title {
-    font-size: 2.7rem;
+    font-size: 2.2rem;
     font-weight: 700;
     margin-bottom: 18px;
     color: #b8e0ff;
@@ -33,7 +34,7 @@
 .contactMethods {
     display: flex;
     flex-wrap: wrap;
-    gap: 28px;
+    gap: 2vw;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
@@ -42,10 +43,10 @@
 .contactLink {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 2vw;
     background: linear-gradient(90deg, #0b2447 60%, #2136bf 100%);
     color: #fff;
-    padding: 15px 28px;
+    padding: 1vw 4vw;
     border-radius: 12px;
     text-decoration: none;
     font-size: 1.13rem;
@@ -63,12 +64,12 @@
     border-color: #b8e0ff;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .container {
-        padding: 32px 6vw 24px 6vw;
+        padding: 24px 2vw 12px 2vw;
     }
     .title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .intro {
         font-size: 1rem;
@@ -76,9 +77,43 @@
     }
     .contactLink {
         font-size: 1rem;
-        padding: 12px 10vw;
+        padding: 1vw 6vw;
     }
     .contactMethods {
-        gap: 16px;
+        gap: 1vw;
+    }
+}
+@media (max-width: 700px) {
+    .container {
+        padding: 12px 1vw 8px 1vw;
+    }
+    .title {
+        font-size: 1.1rem;
+    }
+    .contactLink {
+        font-size: 0.95rem;
+        padding: 1vw 4vw;
+    }
+}
+@media (max-width: 500px) {
+    .container {
+        padding: 6px 0.5vw 4px 0.5vw;
+        border-radius: 10px;
+    }
+    .title {
+        font-size: 1rem;
+    }
+    .contactLink {
+        font-size: 0.9rem;
+        padding: 1vw 2vw;
+    }
+}
+@media (max-width: 400px) {
+    .container {
+        padding: 2px 0.2vw 1px 0.2vw;
+        border-radius: 6px;
+    }
+    .title {
+        font-size: 0.9rem;
     }
 } 
