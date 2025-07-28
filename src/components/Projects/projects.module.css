@@ -67,7 +67,7 @@
   box-shadow: 0 8px 32px rgba(0,0,0,0.18);
 }
 .projectImg {
-  width: 100%;
+  width: 80%;
   height: 180px;
   object-fit: cover;
   border-radius: 12px 12px 0 0;
