@@ -13,7 +13,7 @@ export const Hero = () => {
           I’m Gursimar, a Computer Science graduate who loves building things that work. Feel free to reach out on LinkedIn or drop me an email if you want to connect or collaborate. 
         </p>
 
-        <a href = "mailto: gursimarkaur.sodhi@gmail.com " className={styles.contactme} >
+        <a href = "mailto: gursimarkaur.sodhi@gmail.com " className={styles.contactme} id='contact'>
           <button className={styles.contactbtn}>Contact Me</button>
         </a>
       </div>
