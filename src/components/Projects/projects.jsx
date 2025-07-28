@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './projects.module.css';
+import jobPortal from './images/JobPortal_Logo.png';
 import project1 from './images/project1.png';
 import project2 from './images/project2.png';
 
 const projects = [
   {
     title: 'Job-Portal',
-    image: project1,
+    image: jobPortal,
     description: 'A weather forecasting app that shows real-time weather data for any city using a public API.',
     github: 'https://github.com/gursimarkaur01/job-portal', 
   },
