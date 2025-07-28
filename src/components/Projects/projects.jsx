@@ -14,13 +14,13 @@ const projects = [
   {
     title: 'IndiaDetours',
     image: project2,
-    description: 'A simple task manager to add, edit, and delete your daily tasks. Built with React.',
+    description: 'A website that provides travel itineraries and guides for exploring India’s diverse culture and landscapes.',
     github: 'https://github.com/gursimarkaur01/IndiaDetours', 
   },
   {
     title: 'Portfolio Website',
     image: project2,
-    description: 'A personal portfolio website to showcase projects, skills, and experience. Responsive and modern design.',
+    description: 'My personal portfolio website to showcase projects, skills, and experience. Responsive and modern design which you are currently viewing.',
     github: 'https://github.com/gursimarkaur01/MyPortfolio', 
   },
   {
