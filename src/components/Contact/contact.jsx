@@ -8,7 +8,7 @@ export const Contact = () => (
       I’d love to hear from you! Feel free to reach out via email or connect with me on the platforms below.
     </p>
     <div className={styles.contactMethods}>
-      <a href="mailto:your.email@example.com" className={styles.contactLink} target="_blank" rel="noopener noreferrer">
+      <a href="mailto:gursimarkaur.sodhi@gmail.com" className={styles.contactLink} target="_blank" rel="noopener noreferrer">
         📧 Email
       </a>
       <a href="https://www.linkedin.com/in/gursimarkaursodhi/" className={styles.contactLink} target="_blank" rel="noopener noreferrer">
