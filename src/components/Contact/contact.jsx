@@ -11,10 +11,10 @@ export const Contact = () => (
       <a href="mailto:your.email@example.com" className={styles.contactLink} target="_blank" rel="noopener noreferrer">
         📧 Email
       </a>
-      <a href="https://www.linkedin.com/in/your-linkedin" className={styles.contactLink} target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/gursimarkaursodhi/" className={styles.contactLink} target="_blank" rel="noopener noreferrer">
         💼 LinkedIn
       </a>
-      <a href="https://github.com/your-github" className={styles.contactLink} target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/gursimarkaur01/" className={styles.contactLink} target="_blank" rel="noopener noreferrer">
         🐙 GitHub
       </a>
     </div>
